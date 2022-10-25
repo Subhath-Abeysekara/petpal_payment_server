@@ -6,5 +6,5 @@ var app = express();
 app.use(bodyParser.json());
 
 app.use("/payment",paymentMethod);
-app.listen(3001)
+app.listen(3002)
 console.log("listning")
